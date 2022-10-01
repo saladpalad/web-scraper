@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+</head>
+<body>
+    
+    <form action="send-url" method="POST">
+        <input type = "text" placeholder="Type your URL here here ..." name="myurl">
+        <input type="submit" value="Send">
+    </form>
+
+    <div class="container">
+        <p class="value">
+            <% if(driverName!= ''){ %>
+                <%= driverName %> : <%= driverConstructor %> 
+            <%} %>
+        </p>
+    </div>
+</body>
+</html>
